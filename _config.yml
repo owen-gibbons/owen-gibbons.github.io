@@ -1,5 +1,5 @@
 title: Owen Gibbons | Network Engineer
-description: Network engineering and cybersecurity portfolio
+description: Network engineering portfolio
 author: Owen Gibbons
 email: owen.gibbons@proton.me
 url: "https://owen-gibbons.github.io"
@@ -10,6 +10,5 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 header_pages:
-  - projects.md
-  - blog.md
+  - plan.md
   - contact.md
