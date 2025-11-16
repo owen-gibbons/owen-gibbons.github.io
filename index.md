@@ -8,10 +8,6 @@ layout: home
     <h1>Hey, I'm Owen</h1>
     <p>I'm a network engineer focused on building secure, resilient infrastructure with aspirations of becoming a security engineer.</p>
   </div>
-
-  <img src="https://github.com/user-attachments/assets/3e54b1cc-4e3f-499d-b3df-2a1b004646da"
-       width="170"
-       style="border-radius: 12px; flex-shrink: 0;">
 </div>
 
 ## What I Do
