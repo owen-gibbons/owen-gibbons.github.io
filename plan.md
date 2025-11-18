@@ -1,6 +1,9 @@
-# The Plan
+---
+layout: default
+title: The Plan
+---
 
-## My Security Engineering and Architect Roadmap
+# My Security Engineering and Architect Roadmap
 I can attribute a great deal of my success in life so far to my constant planning. Granted, most of my plans have to get changed dramatically over time, but the beauty is that I typically have a couple other contingency plans.
 
 <img width="966" height="179" alt="2025-11-18_00-07" src="https://github.com/user-attachments/assets/b5230f7b-09db-4d46-ad92-2727dd4f91a7" />
