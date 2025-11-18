@@ -12,3 +12,5 @@ plugins:
 header_pages:
   - plan.md
   - contact.md
+minima:
+  skin: auto
