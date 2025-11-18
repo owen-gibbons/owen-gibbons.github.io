@@ -3,7 +3,7 @@ layout: home
 ---
 
 
-# Hey, I'm Owen
+## Hey, I'm Owen
 I'm an aspiring network engineer and recent graduate from UMass Amherst with a BS in CS. My interests lie in networking and security, with an end goal to become a security architect.
 
 Over the past year, I have spent a significant amount of time learning about networking, both during my formal education with my Computer Networks and Mobile and Wireless Networks classes and during my studies for industry certifications like the CCNA and the CompTIA certifications (A+, Network+, Security+).
