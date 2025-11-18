@@ -14,5 +14,10 @@ This combination of learning has given me a well-rounded understanding of networ
 
 For more information about my intended career path and rationale, check out [The Plan](/plan).
 
-## Connecting and Collaborating
 If you'd like to connect and/or collaborate on a project, please [reach out](/contact).
+
+## News
+- 05/16/25 - I graduated from UMass Amherst with a BS in CS
+- 01/28/25 - I obtained the CompTIA Security+
+- 08/30/24 - I obtained the CompTIA Network+
+- 01/23/24 - I obtained the CompTIA A+
