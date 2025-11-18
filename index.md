@@ -3,31 +3,16 @@ layout: home
 ---
 
 
-<div style="display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap;">
-  <div style="flex: 1 1 300px;">
-    <h1>Hey, I'm Owen</h1>
-    <p>I'm a network engineer focused on building secure, resilient infrastructure with aspirations of becoming a security engineer.</p>
-  </div>
-</div>
+# Hey, I'm Owen
+I'm an aspiring network engineer and recent graduate from UMass Amherst with a BS in CS. My interests lie in networking and security, with an end goal to become a security architect.
 
-## What I Do
+Over the past year, I have spent a significant amount of time learning about networking, both during my formal education with my Computer Networks and Mobile and Wireless Networks classes and during my studies for industry certifications like the CCNA and the CompTIA certifications (A+, Network+, Security+).
 
-I design and secure network infrastructures, with hands-on experience in routing, switching, and security controls. My background combines formal computer science education (BS from UMass Amherst) with practical certifications (Security+, Network+, A+) and a drive to learn how systems work.
+I'm currently preparing for my CCNA exam and building hands-on experience through Boson's NetSim labs and ExSim practice exams. I also plan to set up a firewall using pfSense once I obtain my CCNA to further build practical experience.
 
-Right now I'm pursuing my CCNA certification (expected December 2025) and looking for network engineering roles where I can apply my skills and build a strong foundation for a future in security engineering.
+This combination of learning has given me a well-rounded understanding of networking theory and practice that strengthens my ability to design resilient networks.
 
-## Beyond Networking and Security
+For more information about my intended career path and rationale, check out [The Plan](/plan).
 
-While networking and security are my professional focus, I also love learning about other areas of computer science when I have the time. I use Xubuntu Linux as my daily driver, which has naturally led to plenty of learning about operating systems, usually when troubleshooting why my PC won't boot or an app won't load (thanks, Linux).
-
-I believe the best engineers mimic the constantly evolving field of technology by continuously learning about new topics and staying curious.
-
-## What's Next
-
-Check out [The Plan](/plan) to see where my head's at.
-
-Want to connect? [Let's talk](/contact).
-
----
-
-*Certifications, work history, and technical skills: [View Resume](/resume)*
+## Connecting and Collaborating
+If you'd like to connect and/or collaborate on a project, please [reach out](/contact).
