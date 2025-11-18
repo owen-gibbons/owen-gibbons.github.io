@@ -40,21 +40,17 @@ a {
   border-bottom-color: var(--border-color);
 }
 
-/* Fix header text colors */
-.site-title {
-  color: var(--header-text) !important;
+/* Fix header text colors - more specific selectors */
+.site-header .site-title,
+.site-header .site-title:visited,
+.site-header .site-title:hover {
+  color: #ffffff !important;
 }
 
-.site-title:visited {
-  color: var(--header-text) !important;
-}
-
-.site-nav .page-link {
-  color: var(--header-text) !important;
-}
-
-.site-nav .page-link:visited {
-  color: var(--header-text) !important;
+.site-header .site-nav .page-link,
+.site-header .site-nav .page-link:visited,
+.site-header .site-nav .page-link:hover {
+  color: #ffffff !important;
 }
 
 .site-footer {
@@ -74,7 +70,7 @@ pre, code {
 /* Dark mode toggle button */
 .theme-toggle {
   background: none;
-  border: 2px solid var(--header-text);
+  border: 2px solid #ffffff;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -85,7 +81,7 @@ pre, code {
   justify-content: center;
   transition: all 0.3s ease;
   margin-left: 20px;
-  color: var(--header-text);
+  color: #ffffff;
 }
 
 .theme-toggle:hover {
