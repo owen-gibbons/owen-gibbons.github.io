@@ -117,7 +117,7 @@ pre, code {
 
 /* Dark mode toggle button */
 .theme-toggle {
-  background: none !important;
+  background: transparent !important;
   border: 2px solid #ffffff !important;
   border-radius: 50%;
   width: 40px;
@@ -130,6 +130,8 @@ pre, code {
   transition: all 0.3s ease;
   margin-left: 20px;
   color: #ffffff !important;
+  padding: 0;
+  flex-shrink: 0;
 }
 
 .theme-toggle:hover {
@@ -137,21 +139,51 @@ pre, code {
   background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
-.site-nav {
+.theme-toggle span {
   display: flex;
   align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
-@media screen and (max-width: 600px) {
-  .theme-toggle {
-    margin-left: 10px;
-    width: 35px;
-    height: 35px;
-    font-size: 18px;
+/* Desktop: keep toggle in header */
+@media screen and (min-width: 601px) {
+  .site-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .site-nav label[for="nav-trigger"] {
+    display: none;
+  }
+  
+  .site-nav .menu-icon {
+    display: none;
+  }
+  
+  .site-nav input ~ .trigger {
+    display: block;
+  }
+  
+  .site-nav .trigger {
+    display: flex;
+    align-items: center;
   }
 }
 
-/* Mobile optimizations */
+/* Tablet view (600px - 900px) */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .site-title {
+    font-size: 24px !important;
+  }
+  
+  .page-content {
+    padding: 30px 20px;
+  }
+}
+
+/* Mobile optimizations - CONSOLIDATED */
 @media screen and (max-width: 600px) {
   body {
     font-size: 16px;
@@ -164,12 +196,6 @@ pre, code {
   
   .site-title {
     font-size: 20px !important;
-  }
-
-  .site-nav .page-link {
-    display: block;
-    padding: 10px 0;
-    margin-left: 0;
   }
   
   .page-content {
@@ -210,19 +236,8 @@ pre, code {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
-}
-@media screen and (min-width: 600px) and (max-width: 900px) {
-  .site-title {
-    font-size: 24px !important;
-  }
-  
-  .page-content {
-    padding: 30px 20px;
-  }
-} 
 
-@media screen and (max-width: 600px) {
-  /* Show hamburger menu icon */
+  /* Mobile menu styling */
   .site-nav {
     position: absolute;
     top: 9px;
@@ -277,38 +292,8 @@ pre, code {
   .theme-toggle {
     position: relative;
     margin: 10px auto;
-    display: flex;
-    width: 40px;
-    height: 40px;
-    border: 2px solid #ffffff !important;
-    border-radius: 50%;
-    background: none !important;
-    color: #ffffff !important;
-    cursor: pointer;
-  }
-}
-
-/* Desktop: keep toggle in header */
-@media screen and (min-width: 601px) {
-  .site-nav {
-    display: flex;
-    align-items: center;
-  }
-  
-  .site-nav label[for="nav-trigger"] {
-    display: none;
-  }
-  
-  .site-nav .menu-icon {
-    display: none;
-  }
-  
-  .site-nav input ~ .trigger {
-    display: block;
-  }
-  
-  .site-nav .trigger {
-    display: flex;
-    align-items: center;
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
   }
 }
