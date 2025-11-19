@@ -1,7 +1,8 @@
 ---
-layout: home
+layout: default
+title: Home
+short_content: true
 ---
-
 
 <h1> Hey, I'm Owen </h1>
 I'm an aspiring network engineer and recent graduate from UMass Amherst with a BS in CS. My interests lie in networking and security, with an end goal to become a security architect.
