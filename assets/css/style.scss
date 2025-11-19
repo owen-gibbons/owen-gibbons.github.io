@@ -199,7 +199,6 @@ pre, code {
   .site-title {
     font-size: 18px !important;
     flex: 1;
-    padding-right: 50px;
   }
   
   .page-content {
@@ -273,9 +272,14 @@ pre, code {
     fill: #ffffff !important;
   }
 
-  .site-nav input ~ .trigger {
-    clear: both;
+  /* HIDE the entire trigger (menu) by default */
+  .site-nav .trigger {
     display: none;
+  }
+
+  /* SHOW the trigger when checkbox is checked */
+  .site-nav input:checked ~ .trigger {
+    display: block;
     position: absolute;
     top: 50px;
     right: 15px;
@@ -287,10 +291,6 @@ pre, code {
     min-width: 200px;
   }
 
-  .site-nav input:checked ~ .trigger {
-    display: block;
-  }
-
   .site-nav .page-link {
     display: block;
     padding: 10px 20px;
@@ -299,13 +299,8 @@ pre, code {
     text-align: left;
   }
 
-/* Hide dark mode toggle by default on mobile */
-  .site-nav input ~ .trigger .theme-toggle {
-    display: none;
-  }
-
-  /* Show dark mode toggle only when menu is open */
-  .site-nav input:checked ~ .trigger .theme-toggle {
+  /* Dark mode toggle styling within opened menu */
+  .site-nav .trigger .theme-toggle {
     display: flex;
     position: relative;
     margin: 10px auto;
