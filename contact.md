@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contact
+short_content: true
 ---
 # Contact
 Whether you're an employer considering my qualifications, someone who wants to work on a project, or you just want to talk, I'm always open to connecting. You can reach me in the following ways:
