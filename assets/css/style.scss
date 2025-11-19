@@ -65,11 +65,6 @@ a {
   color: #ffffff !important;
 }
 
-/* Menu icon for mobile */
-.site-header .site-nav label[for="nav-trigger"] {
-  display: block;
-}
-
 .site-header .menu-icon > svg {
   fill: #ffffff !important;
 }
@@ -192,10 +187,19 @@ pre, code {
   
   .site-header {
     padding: 10px 0;
+    position: relative;
+  }
+  
+  .site-header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
   .site-title {
-    font-size: 20px !important;
+    font-size: 18px !important;
+    flex: 1;
+    padding-right: 50px;
   }
   
   .page-content {
@@ -239,12 +243,10 @@ pre, code {
 
   /* Mobile menu styling */
   .site-nav {
-    position: absolute;
-    top: 9px;
-    right: 15px;
-    background-color: var(--header-bg);
-    border: 1px solid var(--border-color);
-    border-radius: 5px;
+    position: static;
+    float: right;
+    background-color: transparent;
+    border: none;
     text-align: right;
   }
 
@@ -255,11 +257,11 @@ pre, code {
     height: 36px;
     z-index: 2;
     cursor: pointer;
+    position: relative;
   }
 
   .site-nav .menu-icon {
     display: block;
-    float: right;
     width: 36px;
     height: 26px;
     line-height: 0;
@@ -271,25 +273,33 @@ pre, code {
     fill: #ffffff !important;
   }
 
-  /* Hide toggle button until menu is opened */
   .site-nav input ~ .trigger {
     clear: both;
     display: none;
+    position: absolute;
+    top: 50px;
+    right: 15px;
+    background-color: var(--header-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    padding: 10px 0;
+    z-index: 10;
+    min-width: 200px;
   }
 
   .site-nav input:checked ~ .trigger {
     display: block;
-    padding-bottom: 5px;
   }
 
   .site-nav .page-link {
     display: block;
-    padding: 10px;
-    margin-left: 20px;
+    padding: 10px 20px;
+    margin-left: 0;
     color: #ffffff !important;
+    text-align: left;
   }
 
-  /* Hide dark mode toggle by default on mobile */
+/* Hide dark mode toggle by default on mobile */
   .site-nav input ~ .trigger .theme-toggle {
     display: none;
   }
