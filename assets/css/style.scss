@@ -271,6 +271,7 @@ pre, code {
     fill: #ffffff !important;
   }
 
+  /* Hide toggle button until menu is opened */
   .site-nav input ~ .trigger {
     clear: both;
     display: none;
@@ -288,8 +289,14 @@ pre, code {
     color: #ffffff !important;
   }
 
-  /* Position dark mode toggle inside mobile menu */
-  .theme-toggle {
+  /* Hide dark mode toggle by default on mobile */
+  .site-nav input ~ .trigger .theme-toggle {
+    display: none;
+  }
+
+  /* Show dark mode toggle only when menu is open */
+  .site-nav input:checked ~ .trigger .theme-toggle {
+    display: flex;
     position: relative;
     margin: 10px auto;
     width: 35px;
