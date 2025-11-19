@@ -150,3 +150,73 @@ pre, code {
     font-size: 18px;
   }
 }
+
+/* Mobile optimizations */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .site-header {
+    padding: 10px 0;
+  }
+  
+  .site-title {
+    font-size: 20px !important;
+  }
+
+  .site-nav .page-link {
+    display: block;
+    padding: 10px 0;
+    margin-left: 0;
+  }
+  
+  .page-content {
+    padding: 20px 15px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+  }
+  
+  h3 {
+    font-size: 1.3em;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  svg {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  ul, ol {
+    padding-left: 20px;
+  }
+  
+  .post-list li {
+    margin-bottom: 15px;
+  }
+  
+  pre {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .site-title {
+    font-size: 24px !important;
+  }
+  
+  .page-content {
+    padding: 30px 20px;
+  }
+} 
