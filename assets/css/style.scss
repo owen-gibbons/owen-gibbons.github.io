@@ -220,3 +220,95 @@ pre, code {
     padding: 30px 20px;
   }
 } 
+
+@media screen and (max-width: 600px) {
+  /* Show hamburger menu icon */
+  .site-nav {
+    position: absolute;
+    top: 9px;
+    right: 15px;
+    background-color: var(--header-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    text-align: right;
+  }
+
+  .site-nav label[for="nav-trigger"] {
+    display: block;
+    float: right;
+    width: 36px;
+    height: 36px;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .site-nav .menu-icon {
+    display: block;
+    float: right;
+    width: 36px;
+    height: 26px;
+    line-height: 0;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .site-nav .menu-icon > svg {
+    fill: #ffffff !important;
+  }
+
+  .site-nav input ~ .trigger {
+    clear: both;
+    display: none;
+  }
+
+  .site-nav input:checked ~ .trigger {
+    display: block;
+    padding-bottom: 5px;
+  }
+
+  .site-nav .page-link {
+    display: block;
+    padding: 10px;
+    margin-left: 20px;
+    color: #ffffff !important;
+  }
+
+  /* Position dark mode toggle inside mobile menu */
+  .theme-toggle {
+    position: relative;
+    margin: 10px auto;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ffffff !important;
+    border-radius: 50%;
+    background: none !important;
+    color: #ffffff !important;
+    cursor: pointer;
+  }
+}
+
+/* Desktop: keep toggle in header */
+@media screen and (min-width: 601px) {
+  .site-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .site-nav label[for="nav-trigger"] {
+    display: none;
+  }
+  
+  .site-nav .menu-icon {
+    display: none;
+  }
+  
+  .site-nav input ~ .trigger {
+    display: block;
+  }
+  
+  .site-nav .trigger {
+    display: flex;
+    align-items: center;
+  }
+}
