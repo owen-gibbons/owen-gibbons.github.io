@@ -17,30 +17,30 @@ These roles typically require a strong technical foundation, which is why I’m 
 Networking is foundational to almost every area of security, so I’ve intentionally chosen to start my career on the networking side. A strong understanding of routing, switching, firewalls, and access control makes it much easier to diagnose vulnerabilities and design secure systems later on. Earning my CCNA and completing extensive hands-on labs (Boson NetSim and Jeremy’s IT Lab) has given me practical experience, and a network engineer role will allow me to deepen those skills in a real environment. This technical base is the most direct and reliable path toward becoming an effective security engineer and, eventually, a security architect.
 
 ### The First Role
-The first step after earning the CCNA is to move into a network-focused role, ideally as a network engineer. This position allows me to apply routing, switching, and infrastructure concepts in real environments and deepen the hands-on skills I’ve built through my lab work. I’m also considering network administrator or NOC roles that provide meaningful exposure to core networking technologies and day-to-day operational experience. Any of these roles will give me the technical foundation required for my transition into security engineering.
+The first step after earning the CCNA is to move into a network-focused role, ideally as a network engineer. This position allows me to apply routing, switching, and infrastructure concepts in real environments and deepen the hands-on skills I’ve built through my lab work. I’m also considering network administrator or NOC roles that provide meaningful exposure to core networking technologies and day-to-day operational experience. Any of these roles will give me the technical foundation required for my transition into security engineering. I'm particularly interested in companies that support internal mobility and career development, where I can grow from network engineering into security engineering within the organization.
 
 During my time as a network engineer, I will naturally get exposed to security concepts like firewalls and ACLs. In fact, I’m also building out a pfSense-based home firewall on a mini PC, using pfBlocker and VLAN segmentation for practical exposure to real security controls. However, this exposure alone will not be enough for me to have the skills required for a security role. This is why I plan on devoting my free time during my stint as a network engineer to studying for the OSCP exam, which is the most respected offensive security certification. I plan to study for the OSCP at a sustainable, methodical pace, which will take about a year alongside full-time work. Once I have this certification, I will have proven that I possess these security skills, which will allow me to pivot to my first security role.
 
 #### Milestones:
-- Years 0-1: Complete **CCNA**, deepen practical networking skills as a network engineer
-- Years 1-2: Earn **OSCP**, apply for first technical security role
+- Years 1-2: Complete **CCNA**, deepen practical networking skills as a network engineer
+- Years 2-3: Earn **OSCP**, apply for first technical security role
 
 ### The First Security Role
 My goal is to transition into a hands-on technical security role, ideally security engineer or network security engineer. I’m also open to adjacent technical paths such as internal pentesting or SOC Tier 2, provided they offer meaningful engineering exposure.
 
 #### Milestones:
-- Years 2-3: Gain hands-on security experience as a **network security engineer** or similar
-- Years 3-4: Earn cloud certifications (AWS, Google, Azure), apply for/transition into **security engineer** role (if not already)
+- Years 3-4: Gain hands-on security experience as a **network security engineer** or similar
+- Years 5-6: Earn cloud certifications (AWS, Google, Azure), apply for/transition into **security engineer** role (if not already)
 
 ### The Endgame
 Once I get the first security role, the path becomes a lot cleaner. After gaining several years of engineering experience, my long-term trajectory leads into security architecture, picking up other certifications like the CISSP and cloud certifications along the way. Beyond technical skills, these roles require strong communication, business acumen, and the ability to translate technical concepts for non-technical stakeholders. I will also deepen my knowledge in business concepts around this time accordingly.
 
 #### Milestones:
-- Years 4-6: Earn **CISSP**
-- Years 7+: Apply for **security architect** roles while continuing to deepen expertise in emerging technologies and business strategy.
+- Years 6-8: Earn **CISSP**
+- Years 9+: Apply for **security architect** roles while continuing to deepen expertise in emerging technologies and business strategy.
 
 ### Continuous Learning
 Continuous learning is a core part of my roadmap. Networking and security evolve constantly, so I make a point to stay current well beyond formal certifications. I plan to continue self-study, explore new technologies, and follow developments across the broader security landscape. Areas like distributed systems and AI are becoming increasingly relevant to modern security challenges, so I will be studying them through a combination of textbooks and advanced online courses.
 
 ### Changes
-Like any long-term plan, this roadmap will evolve as I grow and gain experience. I’ll update this page as it changes.
+Like any long-term plan, this roadmap will evolve as I grow and gain experience. I’ll update this page as it changes. Last updated: November 2025.
