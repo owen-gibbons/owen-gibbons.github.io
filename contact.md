@@ -4,7 +4,7 @@ title: Contact
 short_content: true
 ---
 # Contact
-Whether you're an employer considering my qualifications, someone who wants to work on a project, or you just want to talk, I'm always open to connecting. You can reach me in the following ways:
+Whether you're an employer considering my qualifications, someone who wants to work on a project, or you just want to talk, I'm always open to connecting. You can reach me through the following form:
 
 <form action="https://formsubmit.co/owen.gibbons@proton.me" method="POST" style="max-width: 400px;">
     <input type="text" name="_honey" style="display:none">
