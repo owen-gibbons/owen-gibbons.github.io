@@ -39,8 +39,5 @@ Once I get the first security role, the path becomes a lot cleaner. After gainin
 - Years 6-8: Earn **CISSP**
 - Years 9+: Apply for **security architect** roles while continuing to deepen expertise in emerging technologies and business strategy.
 
-### Continuous Learning
-Continuous learning is a core part of my roadmap. Networking and security evolve constantly, so I make a point to stay current well beyond formal certifications. I plan to continue self-study, explore new technologies, and follow developments across the broader security landscape. Areas like distributed systems and AI are becoming increasingly relevant to modern security challenges, so I will be studying them through a combination of textbooks and advanced online courses.
-
 ### Changes
-Like any long-term plan, this roadmap will evolve as I grow and gain experience. I’ll update this page as it changes. Last updated: November 2025.
+Like any long-term plan, this roadmap will evolve as I grow and gain experience. I’ll update this page as it changes. Last updated: December 2025.
