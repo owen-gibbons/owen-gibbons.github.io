@@ -9,7 +9,7 @@ I'm an aspiring network engineer and recent graduate from [UMass Amherst](https:
 
 Over the past year, I have spent a significant amount of time learning about networking, both during my formal education with my Computer Networks and Mobile and Wireless Networks classes and during my studies for industry certifications like the [CCNA](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html) and the [CompTIA](https://www.comptia.org/en-us/certifications/) certifications (A+, Network+, Security+).
 
-I'm recently obtained my CCNA exam after building hands-on experience through [Boson's](https://www.boson.com/) NetSim labs and ExSim practice exams. I now plan to set up a firewall using [pfSense](https://www.pfsense.org/) to further build practical experience.
+I'm recently obtained my CCNA exam after building hands-on experience through [Boson's](https://www.boson.com/) NetSim labs and ExSim practice exams. I now plan to further my knowledge by learning more about Python scripting and BGP.
 
 This combination of learning has given me a well-rounded understanding of networking theory and practice that strengthens my ability to design resilient networks.
 
