@@ -47,4 +47,4 @@ If presented with an entry-level or early-career security engineering role that 
 My focus is not on titles, but on developing the deep technical understanding required to be effective in security engineering. Whether that foundation is built first through network engineering roles or directly within a security-focused position depends on the opportunity and the scope of responsibility offered.
 
 ### Changes
-Like any long-term plan, this roadmap will evolve as I grow and gain experience. I’ll update this page as it changes. Last updated: December 2025.
+Like any long-term plan, this roadmap will evolve as I grow and gain experience. I’ll update this page as it changes. Last updated: January 2026.
