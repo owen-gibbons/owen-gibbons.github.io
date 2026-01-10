@@ -39,5 +39,12 @@ Once I get the first security role, the path becomes a lot cleaner. After gainin
 - Years 6-8: Earn **CISSP**
 - Years 9+: Apply for **security architect** roles while continuing to deepen expertise in emerging technologies and business strategy.
 
+### Adapting to Opportunity
+While my planned path emphasizes building a strong foundation in network engineering before transitioning into security-focused roles, I recognize that real-world opportunities do not always follow a linear path.
+
+If presented with an entry-level or early-career security engineering role that offers meaningful hands-on technical exposure, strong mentorship, and alignment with my long-term goals, I would absolutely pursue it.
+
+My focus is not on titles, but on developing the deep technical understanding required to be effective in security engineering. Whether that foundation is built first through network engineering roles or directly within a security-focused position depends on the opportunity and the scope of responsibility offered.
+
 ### Changes
 Like any long-term plan, this roadmap will evolve as I grow and gain experience. I’ll update this page as it changes. Last updated: December 2025.
