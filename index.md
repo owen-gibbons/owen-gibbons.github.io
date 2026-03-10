@@ -5,7 +5,7 @@ short_content: true
 ---
 
 # Hey, I'm Owen
-I'm an aspiring network engineer and recent graduate from [UMass Amherst](https://www.cics.umass.edu/) with a BS in CS. My interests lie in networking and security, with an end goal to become a security architect.
+I'm a network engineer on Caterpillar's global WAN team and a recent graduate from [UMass Amherst](https://www.cics.umass.edu/) with a BS in CS. My interests lie in networking and security, with an end goal to become a security architect.
 
 Over the past year, I have spent a significant amount of time learning about networking, both during my formal education with my Computer Networks and Mobile and Wireless Networks classes and during my studies for industry certifications like the [CCNA](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html) and the [CompTIA](https://www.comptia.org/en-us/certifications/) certifications (A+, Network+, Security+).
 
